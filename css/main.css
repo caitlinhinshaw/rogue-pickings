@@ -6,3 +6,36 @@ body {
 .script {
     font-family: 'Galada', cursive;
 }
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/******* Grid *******/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/******* Header *******/
+
+/******* Intro Section *******/
+
+/******* Details Section *******/
+
+/******* Footer *******/
+footer {
+    text-align: center;
+}
