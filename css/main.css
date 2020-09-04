@@ -2,17 +2,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
-.script {
-    font-family: 'Galada', cursive;
-    text-transform: lowercase;
-}
-
 h1, h2, h3 {
     font-weight: bold;
     text-transform: uppercase;
 }
-
+.script {
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
 .green {
     color: #77a466;
 }
@@ -23,14 +20,12 @@ h1, h2, h3 {
     margin: 0 auto;
     float: left;
 }
-
 .half-width {
     width: 600px;
     float: left;
 }
-
 .third-width {
-    width: 400px;
+    width: 350px;
     float: left;
 }
 
@@ -39,16 +34,13 @@ header h1 {
     padding: 25px 20px;
     font-size: 30px;
 }
-
 nav {
     float: right;
     padding: 35px 0px 35px 20px;
 }
-
 nav ul li{
     display: inline-block;
 }
-
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
@@ -57,14 +49,48 @@ nav ul li a {
     color: #77a466;
     padding-left: 10px; 
 }
-
 img {
-    padding: 0px 20px;
+    margin: 0px 20px;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
 }
 
 /******* Intro Section *******/
+p {
+    font-size: 16px;
+}
+
+/******* Intro Section *******/
+#intro { 
+    margin: 0px 20px;
+}
+h2 {
+    font-size: 18px;
+}
 
 /******* Details Section *******/
+#details {
+    margin: 0px 20px;
+}
+
+h3 {
+    font-size: 12px;
+}
+ul li {
+    font-size: 16px;
+    color: #77a466;
+}
+div .third-width {
+    padding: 20px;
+    border-style: solid none;
+    border-width: thin;
+    border-color: grey;
+}
+#reviews {
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+}
 
 /******* Footer *******/
 footer {
