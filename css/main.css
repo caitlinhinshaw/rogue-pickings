@@ -5,11 +5,16 @@ body {
 
 .script {
     font-family: 'Galada', cursive;
+    text-transform: lowercase;
 }
 
 h1, h2, h3 {
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.green {
+    color: #77a466;
 }
 
 /******* Grid *******/
@@ -31,7 +36,8 @@ h1, h2, h3 {
 
 /******* Header *******/
 header h1 {
-    padding: 20px 20px;
+    padding: 25px 20px;
+    font-size: 30px;
 }
 
 nav {
@@ -63,4 +69,7 @@ img {
 /******* Footer *******/
 footer {
     text-align: center;
+}
+h2 {
+    font-size: 16px;
 }
